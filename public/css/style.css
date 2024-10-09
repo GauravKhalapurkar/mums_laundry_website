@@ -194,9 +194,9 @@ body {
     font-weight: 200;
 }
 
-.contact-info {
+/* .contact-info {
     padding-left: 5px !important;
-}
+} */
 
 .hor-line {
     opacity: 0.5;
@@ -221,9 +221,9 @@ body {
     .footer-logo img {
         margin-left: unset !important;
     }
-    .list {
+    /* .list {
         margin: 0 auto;
-    }
+    } */
     .input-width {
         width: unset;
     }
