@@ -1,12 +1,10 @@
 <%- include("partials/header") -%>
 
 
-    <section class="min-h-screen flex items-center justify-left" id="blue3">
+    <!-- <section class="min-h-screen flex items-center justify-left" id="blue3">
         <div>
-            <!-- Title with Bebas font -->
             <h1 class="md:text-8xl text-7xl mb-4 text-white bebas">MAKING LAUNDRY DAY A BREEZE</h1><br /><br />
 
-            <!-- Subheading Text -->
             <div class="flex flex-col items-left grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
                 <p class="text-white">Mum’s Laundry is the newest, <br />freshest and cleanest laundry <br />service in the Philippines!</p>
                 <div class="mt-8 flex justify-left items-center">
@@ -19,13 +17,78 @@
                     </button>
                 </div>
                 <div class="">
-                    <div class="flex absolute washing_image min-w-screen mt-16">
-                        <img src="images/washing_machine.png" alt="Washing Machine" class="border border-gray-500 rounded-lg" />
+                    <div class="flex absolute washing_image w-1/3 mt-16">
+                        <img src="images/machine.png" alt="Washing Machine" class="border border-gray-500 rounded-lg w-full" />
                     </div>
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <!-- <section class="min-h-screen flex items-center justify-left w-full" id="blue3">
+        <div class=""> 
+            <h1 class="md:text-8xl text-7xl text-white bebas">MAKING LAUNDRY DAY A BREEZE</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 border border-gray-500">
+                <div class="">
+                    <p class="text-white">Mum’s Laundry is the newest, <br />freshest and cleanest laundry <br />service in the Philippines!</p>
+                    <button class="bg-white py-1 px-2 rounded-full flex items-center space-x-4 md:space-x-8 button-text"><span>Pick-Up</span>
+                    <div class="rounded-full arrow">
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                       </svg>  
+                    </div>      
+                    </button>
+                </div>
+                <div class="relative flex flex-col justify-center items-center border border-red-500">
+                    <img class="absolute top-0 border border-gray-500 rounded-lg" src="images/machine.png" alt="Washing Machine" />
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="w-full" id="blue3">
+        <div class="pt-20 pb-36 relative">
+            <h1 class="md:text-8xl text-7xl mb-10 text-white bebas">MAKING LAUNDRY DAY A BREEZE</h1>
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mb-16 relative z-10">
+                <div class="flex flex-col pt-10 md:absolute justify-center items-start gap-4">
+                    <p class="text-white">Mum’s Laundry is the newest, <br />freshest and cleanest laundry <br />service in the Philippines!</p>
+                    <a href="/" class="relative z-20">
+                        <button class="bg-white py-1 px-2 rounded-full flex items-center space-x-4 md:space-x-8 button-text">
+                            <span>Pick-Up</span>
+                            <div class="rounded-full arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                </svg>  
+                            </div>      
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <!-- Adjusted positioning of the image to prevent overlap -->
+            <div class="absolute inset-x-0 sm:bottom-[-100px] md:bottom-[-120px] lg:bottom-[-240px] flex justify-center z-0">
+                <img class="w-[50%] sm:w-[50%] md:w-[38%] rounded-lg" src="images/machine.png" alt="Washing Machine">
+            </div>
+        </div>
     </section>
+    
+
+
+    <!-- <section class="min-h-screen w-full flex items-center justify-center relative bg-gradient-to-b from-teal-500 to-blue-300">
+        <div class="text-center">
+            <h1 class="md:text-8xl text-7xl text-white bebas mb-10">MAKING LAUNDRY DAY A BREEZE</h1>
+            <p class="text-white text-lg mb-6">Mum’s Laundry is the newest, freshest, and cleanest laundry service in the Philippines!</p>
+            <button class="bg-white text-teal-600 font-semibold py-2 px-4 rounded-full shadow-md flex items-center space-x-2">
+                <span>Pick-Up</span>
+                <span>→</span>
+            </button>
+        </div>
+        <div class="absolute inset-x-0 bottom-[-40px] flex justify-center">
+            <img class="w-[50%] sm:w-[30%] md:w-[20%] rounded-lg shadow-lg" src="images/machine.png" alt="Washing Machine">
+        </div>
+    </section> -->
+    
+    
+
     </div>
 
     <!-- SERVICES SECTION -->
