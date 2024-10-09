@@ -2,6 +2,14 @@ body {
     font-family: 'Gothic A1', sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+    .washing_image img {
+        display: flex;
+        margin: unset;
+        position: relative;
+    }
+}
+
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
 }
@@ -84,7 +92,7 @@ body {
 }
 
 .washing_image img {
-    margin: -400px 0 0 150px;
+    margin: -350px 0 0 300px;
 }
 
 .services_block {
@@ -204,11 +212,11 @@ body {
     font-size: 15px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
     .washing_image img {
         position: relative;
         display: flex;
-        margin: -90px 0 0 0;
+        margin: -400px 0 0 0;
     }
     .footer-logo img {
         margin-left: unset !important;
