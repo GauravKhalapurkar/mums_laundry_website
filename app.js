@@ -2,10 +2,13 @@ const express = require('express');
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const app = express();
+const path = require('path');
 
 app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static("public"));
+// app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get("/", function(req, res) {
     res.render("index");
